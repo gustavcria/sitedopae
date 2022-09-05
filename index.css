@@ -1,0 +1,86 @@
+:root{
+    --tompastel: #FFD8BE;
+    --textocentralizado: "center";
+    --bordacustomizada: 4px dashed #F3A957;
+}
+
+*{
+    margin: 0px;
+    border: 0px solid red;
+    padding: 0px;
+}
+
+header{
+    background-color: var(--tompastel);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 350px;
+}
+
+section#titulo{
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+h1#nome{
+    font-size: 40px;
+}
+
+h2#funcao{
+    font-size: 30px;
+}
+
+footer{
+    background-color: var(--tompastel);
+}
+
+img{
+    border: var(--bordacustomizada);
+    border-radius: 50%;
+}
+
+nav{
+    background-color: #F3A957;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+}
+
+nav ul li{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li:hover{
+    background-color: bisque;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: 'Comic Sans MS';
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+main{
+    color: var(--tompastel);
+    text-align: var(--textocentralizado);
+}
