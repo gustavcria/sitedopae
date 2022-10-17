@@ -31,12 +31,6 @@ h2#funcao{
     font-size: 30px;
 }
 
-img{
-    border: var(--bordacustomizada);
-    border-radius: 50%;
-    height: 280px;
-    width: 280px;
-}
 
 nav{
     background-color: #F3A957;
@@ -47,7 +41,13 @@ nav ul{
     list-style: none;
     align-items: center;
     justify-content: space-evenly;
-    height: 100px;
+    height: 10vw;
+}
+
+img{
+    border: var(--bordacustomizada);
+    border-radius: 60%;
+    height: 23vw;
 }
 
 li{
@@ -81,12 +81,31 @@ main{
     color: var(--textocor);
     background-color:var(--tompastel);
     text-align: var(--textocentralizado);
-    height: 2000px;
+    height: 1000px;
 }
+
 section#home{
- height: 500px;
+ padding: 50px;
+ text-align: center;
+}
+section#port{
+    height: 300px;
+}
+section#exp{
+    height: 300px;
+
+}
+section#cont{
+    height: 300px;
+
 }
 
 footer{
-    background-color: var(--tompastel)
+    background-color: #f3a957;
+    text-align: center;
+
+}
+
+div{ 
+    text-align: center;
 }
