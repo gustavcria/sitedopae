@@ -1,7 +1,8 @@
 :root{
-    --tompastel: #FFD8BE;
+    --tompastel: #f1c3a5;
     --textocentralizado: "center";
     --bordacustomizada: 4px dashed #F3A957;
+    --textocor: #000000;
 }
 
 *{
@@ -19,7 +20,6 @@ header{
 }
 
 section#titulo{
-    font-family: "Comic Sans MS";
     text-align: center;
 }
 
@@ -31,13 +31,11 @@ h2#funcao{
     font-size: 30px;
 }
 
-footer{
-    background-color: var(--tompastel);
-}
-
 img{
     border: var(--bordacustomizada);
     border-radius: 50%;
+    height: 280px;
+    width: 280px;
 }
 
 nav{
@@ -52,7 +50,7 @@ nav ul{
     height: 100px;
 }
 
-nav ul li{
+li{
     height: 100%;
     width: 100%;
     display: flex;
@@ -60,15 +58,14 @@ nav ul li{
     justify-content: center;
 }
 
-nav ul li:hover{
+li:hover{
     background-color: bisque;
 }
 
-nav ul li a{
+a{
     text-decoration: none;
     color: white;
     font-size: large;
-    font-family: 'Comic Sans MS';
     height: 100%;
     width: 100%;
     display: flex;
@@ -76,11 +73,20 @@ nav ul li a{
     justify-content: center;
 }
 
-nav ul li a:hover{
+a:hover{
     color: black;
 }
 
 main{
-    color: var(--tompastel);
+    color: var(--textocor);
+    background-color:var(--tompastel);
     text-align: var(--textocentralizado);
+    height: 2000px;
+}
+section#home{
+ height: 500px;
+}
+
+footer{
+    background-color: var(--tompastel)
 }
