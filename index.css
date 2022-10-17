@@ -81,7 +81,7 @@ main{
     color: var(--textocor);
     background-color:var(--tompastel);
     text-align: var(--textocentralizado);
-    height: 1000px;
+    height: 1100px;
 }
 
 section#home{
@@ -89,14 +89,14 @@ section#home{
  text-align: center;
 }
 section#port{
-    height: 300px;
+    height: 250px;
 }
 section#exp{
-    height: 300px;
+    height: 250px;
 
 }
 section#cont{
-    height: 300px;
+    height: 250px;
 
 }
 
